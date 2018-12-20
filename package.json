@@ -1,0 +1,24 @@
+{
+  "name": "typescript-node-module-boilerplate",
+  "version": "0.0.1",
+  "description": "Typescript node module boilerplate hello world",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/joshua.clark/typescript-node-module-boilerplate.git"
+  },
+  "author": "Joshua Clark WMTP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/joshua.clark/typescript-node-module-boilerplate/issues"
+  },
+  "homepage": "https://gitlab.com/joshua.clark/typescript-node-module-boilerplate#readme",
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
