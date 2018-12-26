@@ -1,7 +1,7 @@
 {
-  "name": "typescript-node-module-boilerplate",
+  "name": "ts-react-npm-module-boilerplate",
   "version": "0.0.1",
-  "description": "Typescript node module boilerplate hello world",
+  "description": "Typescript React component node module boilerplate hello world",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
