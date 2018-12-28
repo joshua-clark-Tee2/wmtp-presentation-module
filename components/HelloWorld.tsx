@@ -1,8 +1,21 @@
 import * as React from 'react';
 
+/**
+ * Hello World Module Properties
+ */
+export interface IProps {
+    /** Description for prop 1 */
+    prop1: string
+    /** Description for prop 2 */
+    prop2: number
+    /** Description for prop 3 */
+    prop3?: object
+}
 
-
-export class HelloWorld extends React.Component<any, any> {
+/**
+ * Form HelloWorld
+ */
+export class HelloWorld extends React.Component<IProps> {
     render() {
         return (
             <div>
