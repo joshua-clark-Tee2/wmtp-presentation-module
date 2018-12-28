@@ -2,7 +2,7 @@ const path = require('path');
 const glob = require('glob');
 
 module.exports = {
-    title: 'WMTP Slider module Style Guide',
+    title: 'WMTP Hello World module Style Guide',
     pagePerSection: true,
     sections: [ {
         name: 'Components',
