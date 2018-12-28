@@ -5,7 +5,10 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "styleguidist": "styleguidist",
+    "start": "tsc && styleguidist server --config styleguide.config.js",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
