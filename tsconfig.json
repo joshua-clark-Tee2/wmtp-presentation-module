@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "outDir": "./lib",
-    "target": "es6",
+    "target": "es5",
     "module": "commonjs",
+    "lib": ["es5", "es6", "dom"],
     "noImplicitAny": true,
     "strictNullChecks": true,
     "declaration": true,
@@ -10,11 +11,8 @@
     "jsx": "react",
     "typeRoots": ["node_modules/@types"]
   },
-  "include": [
-    "./src/**/*.tsx",
-    "./src/**/*.ts"
-  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "lib"
   ]
 }
