@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default class HelloWorld extends React.Component<any, any> {
+export class HelloWorld extends React.Component<any, any> {
     render() {
         return (
             <div>
@@ -9,3 +9,5 @@ export default class HelloWorld extends React.Component<any, any> {
         );
     }
 }
+
+export default HelloWorld;
