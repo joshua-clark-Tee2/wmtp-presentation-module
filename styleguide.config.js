@@ -2,11 +2,13 @@ const path = require('path');
 const glob = require('glob');
 
 module.exports = {
-    title: 'WMTP Hello World module Style Guide',
+    title: 'WMTP modules',
     pagePerSection: true,
+    exampleMode: "expand",
+    usageMode: "expand",
     sections: [ {
         name: 'Components',
-        description: 'All components part of module',
+        description: 'WMTP components',
         components: function () {
             return glob.sync(path.resolve(__dirname, 'components/**/*.tsx'))
                 .filter(function (module) {
