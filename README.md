@@ -1,5 +1,5 @@
-# typescript-react-npm-module-boilerplate
-A boilerplate for creating typescript react component node modules
+# wmtp-presentation-module
+A boilerplate for creating typescript react component node modules including all components created by WMTP
 ## Setting up the module
   - clone the repository
   - run "npm install" to install dependencies needed to run
@@ -48,11 +48,12 @@ You can view the React Docs by entering the following command:
 
 This will start a development server on localhost:6060 showing all the properties for the Hello World module
 
+You can also find it on this repos github pages url:  https://joshua-clark-tee2.github.io/wmtp-presentation-module/
 ## Publishing your new module
 Once you have finished writing all functionality, you can publish your module to npm and you will be able to
 install your new module with the following command.
 
-  - npm install <your-new-module-name>
+  - npm install your-module-name
 
 Here is a good tutorial for publishing node modules.
 https://docs.npmjs.com/creating-node-js-modules
